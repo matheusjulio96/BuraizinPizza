@@ -1,15 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <IsPackable>true</IsPackable>
-    <RestoreAdditionalProjectSources>
+    <!--<RestoreAdditionalProjectSources>
       https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json;
       https://dotnet.myget.org/F/blazor-dev/api/v3/index.json;
-    </RestoreAdditionalProjectSources>
+    </RestoreAdditionalProjectSources>-->
     <LangVersion>7.3</LangVersion>
     <RazorLangVersion>3.0</RazorLangVersion>
-    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <!--<AddRazorSupportForMvc>true</AddRazorSupportForMvc>-->
   </PropertyGroup>
 
   <ItemGroup>
